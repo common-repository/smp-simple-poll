@@ -1,0 +1,200 @@
+# Copyright (C) 2022 Simple Poll
+# This file is distributed under the same license as the Simple Poll package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Poll 2.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/qs_tool_wp_pot_gen_1659981242_7879_800815\n"
+"POT-Creation-Date: 2022-08-08 17:54:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/Classes/Poll_Metaboxes.php:22
+msgid "Poll Metabox"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:89
+#: includes/Classes/Poll_Methodes.php:115
+msgid "Poll Status"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:92
+#: includes/Classes/Poll_Shortcode.php:94
+msgid "Live"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:93
+msgid "End"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:99
+msgid "Display Poll Result"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:103
+msgid "Public after Vote"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:105
+msgid "Private"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:107
+msgid "Public"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:112
+msgid "Poll End Date"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:118
+msgid "Poll Color"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:122
+msgid "Gradient"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:123
+msgid "Solid"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:181
+#: includes/Classes/Poll_Metaboxes.php:194
+msgid "Option Name"
+msgstr ""
+
+#: includes/Classes/Poll_Metaboxes.php:208
+msgid "Add Option"
+msgstr ""
+
+#: includes/Classes/Poll_Methodes.php:114
+msgid "Poll ID"
+msgstr ""
+
+#: includes/Classes/Poll_Methodes.php:116
+msgid "Shortcode"
+msgstr ""
+
+#: includes/Classes/Poll_Methodes.php:117
+msgid "Result"
+msgstr ""
+
+#: includes/Classes/Poll_Methodes.php:133
+msgid "Unable to get shortcode"
+msgstr ""
+
+#: includes/Classes/Poll_Shortcode.php:95
+msgid "Ended"
+msgstr ""
+
+#: includes/Classes/Poll_Shortcode.php:183
+msgid "You already partcipeted."
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:24 includes/Classes/SMPP_CPT.php:25
+msgctxt "smp-simple-poll"
+msgid "Simple Poll"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:26 includes/Classes/SMPP_CPT.php:46
+msgid "Simple Poll"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:27
+msgid "Simple Polls"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:28
+msgid "Parent Poll:"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:29
+msgid "All Polls"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:30
+msgid "Add New Poll"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:31
+msgid "Add New"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:32
+msgid "New Poll"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:33
+msgid "Edit Poll"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:34
+msgid "Update Poll"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:35
+msgid "View Poll"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:36
+msgid "Search Poll"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:37
+msgid "Not found"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:38
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:39
+msgid "Poll Background"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:40
+msgid "Set Poll Background"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:41
+msgid "Remove Poll Background"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:42
+msgid "Use as Poll Background"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:43
+msgid "Uploaded to this bank"
+msgstr ""
+
+#: includes/Classes/SMPP_CPT.php:47
+msgid "Simple Poll Description"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Simple Poll"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/akashmdiu/smp-simple-poll"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The Simple Poll is a voting poll system into your post, pages and everywhere in website by just a shortcode. Add poll system to your post by placing shortcode."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Akash Mia"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://bprogrammer.net"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid "simple poll, voting poll, survay, poll by shortcode, create poll."
+msgstr ""

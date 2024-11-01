@@ -1,0 +1,59 @@
+.hidden {
+    display: none !important;
+}
+
+.smpp_short_code {
+    background: #ebf0f4;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#smpp_colors input {
+    width: 80px;
+    height: 35px;
+}
+
+button.remove-option {
+    border: none;
+    background: #2271b1;
+    border-radius: 50px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.shortcode {
+    position: relative;
+}
+
+.shortcode code {
+    cursor: pointer;
+}
+
+.shortcode span {
+    position: absolute;
+    right: 0;
+    background: #2271b1;
+    padding: 2px 8px;
+    border-radius: 15px;
+    color: #fff;
+    top: 0px;
+    font-size: 10px;
+    transition: all 0.3s;
+}
+
+.invisible {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 8px;
+
+}

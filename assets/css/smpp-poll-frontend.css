@@ -1,0 +1,295 @@
+:root {
+  --global-color-background: #fff !important;
+  --smp-poll-color:
+}
+
+.hidden {
+  display: none !important;
+}
+
+.text-align-center {
+  text-align: center !important;
+}
+
+main#main {
+  max-width: 400px;
+}
+
+.smpp_container {
+  position: relative;
+  max-width: 390px !important;
+  margin: auto;
+  padding: 35px;
+  border-radius: 15px;
+  background-color: #f7f3fc;
+}
+
+.smpp_inner {
+  position: relative;
+  transition: 0.3s;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a2558;
+  padding: 40px 45px;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(to right, #1f2e75, #1a2558);
+  background: linear-gradient(to right, #1f2e75, #1a2558);
+}
+
+
+.smpp-end-time.text-align-center span {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+  font-family: Open sans;
+  display: block;
+}
+
+.smpp_surveys {
+  position: relative;
+  z-index: 1;
+}
+
+.smpp_survey-item-inner {
+  position: relative;
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  background: #ebf3f7;
+  padding: 10px 25px 10px 10px;
+  border-radius: 30px;
+  align-items: center;
+  margin-bottom: 10px;
+  max-height: 45px;
+  overflow: hidden;
+}
+
+.smpp_survey-name h5 {
+  margin: 0 !important;
+  font-size: 18px !important;
+}
+
+.smpp_survey-total-vote span {
+  margin: 0 0 15px 0 !important;
+  transition: all 0.3s;
+}
+
+ul.smpp_surveys li {
+  margin: 0;
+  padding: 0;
+}
+
+.smpp_survey-item-action {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+
+.smpp_survey-name h5 {
+  padding-left: 15px;
+  font-size: 20px;
+  margin: 0;
+}
+
+.smpp_survey-vote-button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: #f9f9f9;
+  border: 1px solid #1a2558;
+  box-shadow: none;
+}
+
+.smpp_survey-vote-button:hover {
+  cursor: default;
+}
+
+.smpp_survey-vote-button.live:hover {
+  cursor: pointer;
+}
+
+.smpp_survey-item-action.smpp_survey-item-action-disabled form .smpp_survey-vote-button:hover,
+.smpp_survey-item-action.smpp_survey-item-action-disabled form .smpp_disabled-button:hover {
+  cursor: default;
+}
+
+form.smpp_survey-item-action-form {
+  margin: 0;
+}
+
+ul.smpp_surveys {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.smpp_survey-progress-fg.smpp_orange_gradient {
+  background: rgb(233 219 244);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.smpp_survey-progress-label {
+  position: relative;
+  z-index: 1;
+}
+
+.smpp_survey-name {
+  margin-left: 15px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+
+.smpp-title h1 {
+  font-size: 20px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  margin: 0 0 15px 0 !important;
+  line-height: 1.5;
+}
+
+.smpp_survey-total-vote {
+  margin-bottom: 15px;
+}
+
+.smpp_survey-total-vote span, span.smpp_stage.smpp_live.smpp_active {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  margin-top: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+
+.smpp_survey-stage .smpp_live, .smpp_survey-stage .smpp_ended {
+  /* position: absolute; */
+  right: 50%;
+  padding: 15px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 10px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  background: #1a2558;
+  background: -webkit-linear-gradient(to right, #1f2e75, #1a2558);
+  background: linear-gradient(to right, #1f2e75, #1a2558);
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 25px !important;
+  padding: 0;
+}
+
+.smpp_user-partcipeted {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.smpp_user-partcipeted p {
+  padding: 0;
+  margin: 0;
+}
+
+.smpp_survey-item-action-form input[role=vote] {
+  height: 25px;
+  line-height: 20px;
+  background-color: transparent;
+  padding: 0;
+  width: 25px;
+  text-align: center;
+  border-radius: 200px;
+  font-size: 20px;
+  transition: all 200ms ease-in-out;
+  border: 1px solid #1a2558;
+  display: flex;
+}
+
+.smpp_survey-item-action-form input[role=vote]:focus {
+  outline: 0;
+}
+
+.smpp_survey-item-action-form input[role=vote]:active {
+  font-size: 24px;
+  outline: 0;
+}
+
+.smpp_survey-item-action-form input[role=vote].clicked {
+  color: transparent;
+  background-color: transparent;
+  width: 28px;
+  border-width: 0px;
+  border-color: #1a2558;
+  -webkit-animation: turn-vote 5s linear;
+  animation: turn-vote 5s linear;
+  border-top-color: #1a2558;
+  background-color: #ddd;
+}
+
+.smpp_survey-item-action-form input[role=vote].done, .smpp_survey-item-action-form input[role=vote].done:hover {
+  background-color: #1a2558;
+  color: #fff;
+  font-family: "FontAwesome";
+  font-size: 40px;
+  position: relative;
+}
+
+.smpp_fill-option {
+  background: -webkit-linear-gradient(to right, #1f2e75, #1a2558);
+  background: linear-gradient(to right, #1f2e75, #1a2558) !important;
+  border: none !important;
+}
+
+.temp-hide {
+  display: none !important;
+}
+
+
+.smpp_inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.smpp_inner:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+  border-radius: 30px;
+}

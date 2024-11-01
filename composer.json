@@ -1,0 +1,19 @@
+{
+    "name": "akash/smp-simple-poll",
+    "description": "The Simple Poll is a voting poll system into your post, pages and everywhere in website by just a shortcode. Add poll system to your post by placing shortcode.",
+    "type": "project",
+    "license": "GPL3",
+    "autoload": {
+        "psr-4": {
+            "Includes\\": "./includes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Akash",
+            "email": "seakashdiu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
